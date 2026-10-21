@@ -17,9 +17,9 @@ function App() {
       <button disabled>Bayar</button>
       <p></p>
     
-      <KartuMenu nama="Nasi Ayam Geprek" harga={10000 + (n * 100)} kategori />
-      <KartuMenu nama="Es Teh Lemon" harga={10000 + (n * 100)} kategori />
-      
+      <KartuMenu nama="Nasi Ayam Geprek" harga={10000 + (n * 100)} />
+      <KartuMenu nama="Es Teh Lemon" harga={10000 + (n * 100)} kategori = "Minuman" />
+      <KartuMenu nama="Mie Goreng" harga={10000 + (n * 100)} kategori = "Minuman" />
       
     </>
 
